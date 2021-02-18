@@ -40,10 +40,12 @@ Data Cleaning Process:
    - Logistic Regression
    - Linear Support Vector Classifier
    - Multinomial Naive Bayes
+   - 
+Although all classifiers struggled to classify the minority class, the Multinomial Naive Bayes Classifier performed the best across the board for all genre labels.
 
-<img src="images/cm_action.png"/>
-<img src="images/cm_drama.png"/>
-<img src="images/cm_fantasy.png"/>
+<img src="images/cm_action.png" height = "300" width="300"/>
+<img src="images/cm_drama.png" height = "300" width="300"/>
+<img src="images/cm_fantasy.png" height = "300" width="300"/>
 
 ## Baseline Modeling
 ### Recurrent Neural Network:
