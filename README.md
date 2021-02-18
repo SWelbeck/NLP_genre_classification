@@ -8,11 +8,9 @@
 <img src="images/film_genre_image.jpg" height = "500" width="800" />
 </p>
 
-## Getting Started
 
-
-### Prerequisites
-
+## Prerequisites
+This project was completed using a ml.t2.xlarge notebook instance on Amazon SageMaker on Amazon Web Services(AWS).
 
 ### Introduction
 Genres are used to categorize art based on a certain set of criteria.<sup>1</sup> They are an agreement between the creator and the audience of what to expect of the film. The genre helps set the tone for the film which in some ways acts as a guideline for the screenwriter. It is then used to help draw audiences in. The film industry is constantly looking for new ways to draw in an audience and establishing the genre is one of the primary ways of doing so.
@@ -26,8 +24,6 @@ Scripts were scrapped from the [The Internet Movie Script Database](https://imsd
 - **Total Number of Genres:** 22
 
 
-
-
 ## Data Cleaning
 Data Cleaning Process:
 - Removed punctuation
@@ -39,19 +35,19 @@ Data Cleaning Process:
 - Lemmatized words (nltk + POS tagging)
 
 ## Modeling
-Data Cleaning Process:
-- Removed punctuation
-- Removed all numbers
-- Removed all capital words - these were the scene directions and other words that were not a part of the dialogue
-- Standardized case (all lower case)
-- Removed stop words
+### One vs. Rest Classifier:
+   - Logistic Regression
+   - Linear Support Vector Classifier
+   - Multinomial Naive Bayes
+
+
+## Baseline Modeling
+### Recurrent Neural Network:
+   - Long Term Short Term Memory Cells (LSTM)
+   - Gated Redcurrent Units (GRU)
 
 ## Results
 
-
-
-## Deployment
-*Interactive Dashboard pending...*
 
 
 ## Author
