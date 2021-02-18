@@ -10,7 +10,7 @@
 
 
 ## Prerequisites
-This project was completed using a ml.t2.xlarge notebook instance on Amazon SageMaker on Amazon Web Services(AWS).
+This project was completed using a ml.t2.xlarge notebook instance on [Amazon SageMaker on Amazon Web Services(AWS)](https://aws.amazon.com/sagemaker/?nc2=h_ql_prod_ml_sm).
 
 ### Introduction
 Genres are used to categorize art based on a certain set of criteria.<sup>1</sup> They are an agreement between the creator and the audience of what to expect of the film. The genre helps set the tone for the film which in some ways acts as a guideline for the screenwriter. It is then used to help draw audiences in. The film industry is constantly looking for new ways to draw in an audience and establishing the genre is one of the primary ways of doing so.
