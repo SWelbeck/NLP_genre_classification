@@ -35,6 +35,13 @@ Data Cleaning Process:
 - Tokenized words 
 - Lemmatized words (nltk + POS tagging)
 
+### LDA
+Here is a display of LDA topic modeling which utilizes count vectorizer to find the frequency for each word within and between texts. The image below is not ideal. Ideally, each circle representing a topic would be nicely spread apart and would not overlap.
+
+![](images/lda_topics.png)
+
+
+
 ## Modeling
 ### One vs. Rest Classifier:
    - Logistic Regression
