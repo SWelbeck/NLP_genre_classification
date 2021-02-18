@@ -12,14 +12,39 @@ Genres are used to categorize art based on a certain set of criteria.<sup>1</sup
 
 The motivation for this project comes from my personal interest in films and exploring ways for them to streamline their marketing processes. Using the script to detect the genre of the film will let the screenwriter and film studios know whether or not they are portraying the tone that they intended to portray. This will also serve to help film studios be better able to identify the genres of their movies and be able to do it in an automated and standardized way. This type of classifier can be used to inform and enhance film recommendation systems by being able to create labels/tags instantly. This also helps better inform the viewers of the type of movie they are about to see.
 
-## Methods
-The data for this project was scraped from The Internet Movie Script Database and then cleaned using several libraries made available through Python. For Baseline modeling, I implemented One vs. Rest Classifier with 
 
+## Dataset
+Scripts were scrapped from the [The Internet Movie Script Database](https://imsdb.com)
+- **Total Number of Scripts:** 1,1416
+- **Total Number of Genres:** 22
+
+
+
+
+## Data Cleaning
+Data Cleaning Process:
+- Removed punctuation
+- Removed all numbers
+- Removed all capital words - these were the scene directions and other words that were not a part of the dialogue
+- Standardized case (all lower case)
+- Removed stop words 
+- Tokenized words 
+- Lemmatized words (nltk + POS tagging)
+
+## Modeling
+Data Cleaning Process:
+- Removed punctuation
+- Removed all numbers
+- Removed all capital words - these were the scene directions and other words that were not a part of the dialogue
+- Standardized case (all lower case)
+- Removed stop words
 
 ## Results
 
-## Deployment
 
+
+## Deployment
+*Interactive Dashboard pending...*
 
 
 ## Author
@@ -30,8 +55,8 @@ The data for this project was scraped from The Internet Movie Script Database an
 
 
 ## Sources
-[The Internet Movie Script Database](https://imsdb.com) <br>
-[Wikipedia: Genre](https://en.wikipedia.org/wiki/Genre) <b>
+1. [The Internet Movie Script Database](https://imsdb.com) <br>
+2. [Wikipedia: Genre](https://en.wikipedia.org/wiki/Genre) <b>
 
 ## Repository Contents
 - `Notebooks` folder: A folder for the python scripts that your Jupyter Notebook imports
