@@ -1,5 +1,6 @@
 # Genre Detection Using Film Scripts :movie_camera:
 ![](images/film_genre_image.jpg)
+<img src="images/film_genre_image.jpg" height = "600" width="1000" />
 
 ## Getting Started
 
