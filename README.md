@@ -40,7 +40,7 @@ Data Cleaning Process:
    - Logistic Regression
    - Linear Support Vector Classifier
    - Multinomial Naive Bayes
-   - 
+   
 Although all classifiers struggled to classify the minority class, the Multinomial Naive Bayes Classifier performed the best across the board for all genre labels.
 
 <img src="images/cm_action.png" height = "300" width="300"/>
@@ -55,10 +55,6 @@ Although all classifiers struggled to classify the minority class, the Multinomi
 
 ## Author
 [Sandra Welbeck](https://github.com/SWelbeck) <br>
-
-
-## Acknowledgments
-
 
 ## Sources
 1. [The Internet Movie Script Database](https://imsdb.com) <br>
