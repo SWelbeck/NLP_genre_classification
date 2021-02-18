@@ -28,6 +28,9 @@ Genres are one of the most important aspects or audiences and creators of films 
 ## Acknowledgments
 
 
+## Sources
+[The Internet Movie Script Database](https://imsdb.com) <br>
+
 
 ## Repository Contents
 - `Notebooks` folder: A folder for the python scripts that your Jupyter Notebook imports
