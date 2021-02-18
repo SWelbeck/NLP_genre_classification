@@ -1,6 +1,12 @@
-# Genre Detection Using Film Scripts :movie_camera:
+<p align="center"> 
+  
+# Genre Detection Using Film Scripts :movie_camera: 
+</p>
 
+<p align="center">
+  
 <img src="images/film_genre_image.jpg" height = "500" width="800" />
+</p>
 
 ## Getting Started
 
