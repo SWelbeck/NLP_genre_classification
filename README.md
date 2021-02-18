@@ -23,6 +23,7 @@ Scripts were scrapped from the [The Internet Movie Script Database](https://imsd
 - **Total Number of Scripts:** 1,1416
 - **Total Number of Genres:** 22
 
+<img src="images/scripts_per_genre.png"/>
 
 ## Data Cleaning
 Data Cleaning Process:
@@ -40,14 +41,14 @@ Data Cleaning Process:
    - Linear Support Vector Classifier
    - Multinomial Naive Bayes
 
+<img src="images/cm_action.png"/>
+<img src="images/cm_drama.png"/>
+<img src="images/cm_fantasy.png"/>
 
 ## Baseline Modeling
 ### Recurrent Neural Network:
    - Long Term Short Term Memory Cells (LSTM)
    - Gated Redcurrent Units (GRU)
-
-## Results
-
 
 
 ## Author
