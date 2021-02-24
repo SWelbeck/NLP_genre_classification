@@ -56,7 +56,7 @@ Although all classifiers struggled to classify the minority class, the Multinomi
 
 ### Recurrent Neural Network:
    - Long Term Short Term Memory Cells (LSTM)
-   - Gated Redcurrent Units (GRU)
+   - Gated Recurrent Units (GRU)
 
 
 ## Author
